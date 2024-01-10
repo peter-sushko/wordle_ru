@@ -26,6 +26,5 @@ plt.bar(letters, frequencies)
 plt.xlabel('Letters')
 plt.ylabel('Occurrences')
 plt.title('Letter Occurrences in Five-Letter Nouns (Descending Order)')
-plt.show()
-
 plt.savefig('letter_frequencies.png')  # Saving the plot.
+plt.show()
